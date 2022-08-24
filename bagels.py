@@ -36,7 +36,7 @@ def main():
             if number_of_guesses > MAX_GUESSES:
                 print(f'You are out of guesses :('
                       f'The right number is: {secret_num}')
-        print("Do you wany to play again? (yes or no)")
+        print("Do you want to play again? (yes or no)")
 
         if not input('> ').lower().startswith('y'):
             break
